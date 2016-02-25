@@ -1,0 +1,217 @@
+.topLeft {
+  padding: 0px 2px 0px 100px;
+}
+
+.topMiddle {
+  padding: 0px 2px 0px 2px;
+}
+
+.topRight {
+  padding: 0px 50px 0px 2px;
+}
+
+.fiveWide {
+  position: relative;
+  margin: 0px 20px 0px 20px;
+}
+
+.inlineBlock {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.fiveWide img {
+  vertical-align: top;
+  padding: 0px 20px;
+}
+
+.fiveWide p {
+  vertical-align: top;
+}
+
+.fiveWide ol {
+  vertical-align: top;
+  padding-left: 56px;
+}
+/*container used to hold smaller divs*/
+.container {
+  height: 300px;
+  width: 100%;
+}
+
+.centerContain {
+  padding-top: 125px;
+}
+
+.hList li {
+  display: inline-block;
+  margin: -3px;
+}
+/*Button Sizes*/
+
+.buttonLarge {
+  background-color: #E00A6A;
+  border-radius: 7px;
+  /*height: 100px;*/
+  width: 250px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 40px 0px 40px 0px;
+  color: white;
+  font-family: helvetica;
+  font-size: 30px;
+}
+
+.buttonMedium {
+  background-color: #E00A6A;
+  border-radius: 7px;
+  /*height: 60px;*/
+  width: 175px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 20px 0px 20px 0px;
+  color: white;
+  font-family: helvetica;
+  font-size: 25px;
+  border: none;
+}
+
+.buttonSmall {
+  background-color: #E00A6A;
+  border-radius: 7px;
+  /*height: 30px;*/
+  width: 50px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 10px 0px 10px 0px;
+  color: white;
+  font-family: helvetica;
+}
+
+.navInline {
+  background-color: #E00A6A;
+  border-radius: 7px;
+  padding: 15px 0px 15px 0px;
+  width: 700px;
+}
+
+.navInline li {
+  display: inline-block;
+  padding: 0px 30px 0px 35px;
+}
+
+.navInline a {
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navInline ul {
+  text-align: center;
+}
+
+.pagination li {
+  display: inline-block;
+}
+
+.pagination a {
+  color: #E00A6A;
+  font-size: 20px;
+  /*text-decoration: none;*/
+  border-bottom: 3px solid #E00A6A;
+  margin: 0px 10px 10px 10px;
+}
+
+.grayEight {
+  font-size: 20px;
+  text-decoration: none;
+  color: gray;
+  margin: 0px 10px 0px 10px;
+}
+
+.noUnder {
+  text-decoration: none;
+}
+
+.floatLeft img {
+  float: left;
+  clear: left;
+  margin: 10px 10px 10px 10px;
+}
+
+.smallBox {
+  position: relative;
+  left: 91px;
+  bottom: 166px;
+}
+
+.firstComment {
+  position: relative;
+  top: 11px;
+}
+
+.secondComment {
+  position: relative;
+  top: 60px;
+}
+
+.thirdComment {
+  position: relative;
+  top: 106px;
+}
+
+.fourthComment {
+  position: relative;
+  top: -10px;
+  left: 67px;
+}
+
+.fifthComment {
+  position: relative;
+  top: 17px;
+  left: 67px;
+}
+
+.instruction-answer time {
+  font-size: 12px;
+  color: grey;
+  font-family: times;
+}
+
+.instruction-answer li {
+  display: inline-block;
+}
+
+.tabBorder {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 16px;
+}
+
+.navBar a {
+  text-decoration: none;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: inline-block;
+  font-family: serif;
+  color: blue;
+  font-weight: bold;
+  padding: 6px;
+}
+
+.noBottomBorder {
+  border-bottom: 1px solid white;
+  z-index: 1;
+  position: relative;
+  top: 1px;
+}
